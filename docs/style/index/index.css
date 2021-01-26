@@ -118,7 +118,7 @@ body {
 }
 
 .glass {
-  position: absolute;
+  position: fixed;
   z-index: 3000;
   width: 40px;
   height: 40px;
@@ -129,6 +129,27 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 5000px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-transition: all 5s ease;
+  -webkit-transition: all  5s ease;
+  transition: all  5s ease;
+}
+
+#glass_1 {
+  left: 10%;
+  top: 10%;
+  background: rgba(248, 231, 28, 0.25);
+}
+
+#glass_2 {
+  left: 40%;
+  top: 30%;
+  background: rgba(21, 19, 254, 0.25);
+}
+
+#glass_3 {
+  left: 80%;
+  top: 20%;
+  background: rgba(208, 2, 27, 0.25);
 }
 
 .bg_glass {

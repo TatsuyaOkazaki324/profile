@@ -1,3 +1,10 @@
+setInterval(function() {
+    document.getElementById("glass_1").style = "transform:translate(" + (Math.floor( Math.random() * (200 + 1) ) -100) + "%," + (Math.floor( Math.random() * (200 + 1) ) -100) + "%);";
+    document.getElementById("glass_2").style = "transform:translate(" + (Math.floor( Math.random() * (200 + 1) ) -100) + "%," + (Math.floor( Math.random() * (200 + 1) ) -100) + "%);";
+    document.getElementById("glass_3").style = "transform:translate(" + (Math.floor( Math.random() * (200 + 1) ) -100) + "%," + (Math.floor( Math.random() * (200 + 1) ) -100) + "%);";
+},4000);
+
+
 // 背景色をロードごとに変更するスクリプト
 document.addEventListener("DOMContentLoaded", function() {
     const schmes = [
