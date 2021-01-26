@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+html, body {
+  font-family: 'Noto Sans JP', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main #main_frame {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  z-index: 2000;
+}
+
+@media screen and (max-width: 480px) {
+  #main #main_frame {
+    padding: 10px;
+  }
+}
+
+#main #main_frame #name {
+  margin: 10px;
+  color: #506B92;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 480px) {
+  #main #main_frame #name {
+    margin: 5px;
+  }
+}
+
+#main #main_frame .text {
+  color: #506B92;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#main #main_frame #media_frame {
+  margin-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#main #main_frame #media_frame .media_btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 5000px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main #main_frame #media_frame .media_btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.glass {
+  position: absolute;
+  z-index: 3000;
+  width: 40px;
+  height: 40px;
+  background: rgba(248, 231, 28, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5000px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bg_glass {
+  position: absolute;
+  z-index: 1000;
+  width: 400px;
+  height: 300px;
+  background: rgba(248, 231, 28, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/*# sourceMappingURL=index.css.map */
